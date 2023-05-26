@@ -1,5 +1,5 @@
 # CEK DIREKTORI
-DIR="/home/ec2-user/file-upload"
+DIR="/home/ubuntu/file-upload"
 echo "CEK DIRECTORY $DIR"
 if [ -d "$DIR" ]; then
   echo "$DIR TELAH ADA"

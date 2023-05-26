@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/file-upload
+    destination: /home/ubuntu/file-upload
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
       timeout: 300
-      runas: ec2-user
+      runas: ubuntu
