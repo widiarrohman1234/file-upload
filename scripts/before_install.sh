@@ -1,5 +1,5 @@
 # CEK DIREKTORI
-DIR="/home/ubuntu/file-upload"
+DIR="/var/www/html/file-upload"
 echo "CEK DIRECTORY $DIR"
 if [ -d "$DIR" ]; then
   echo "$DIR TELAH ADA"
