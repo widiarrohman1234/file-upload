@@ -19,8 +19,8 @@ if ($_FILES["fileToUpload"]["size"] > 2 * 1024 * 1024) {
 }
 
 // Batasi jenis file yang diperbolehkan
-if ($fileType != "jpg" && $fileType != "png" && $fileType != "jpeg" && $fileType != "gif" && $fileType != "txt" && $fileType != "csv") {
-    echo "Jenis file yang diperbolehkan hanya JPG, JPEG, PNG, GIF, TXT, dan CSV.";
+if ($fileType != "jpg" && $fileType != "png" && $fileType != "jpeg" && $fileType != "gif" && $fileType != "txt" && $fileType != "csv" && $fileType != "docx") {
+    echo "Jenis file yang diperbolehkan hanya JPG, JPEG, PNG, GIF, TXT, DOCX, dan CSV.";
     $uploadOk = 0;
 }
 
